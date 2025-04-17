@@ -18359,6 +18359,8 @@ self: super: with self; {
 
   unrpa = callPackage ../development/python-modules/unrpa { };
 
+  unsloth = callPackage ../development/python-modules/unsloth { };
+
   unsloth-zoo = callPackage ../development/python-modules/unsloth-zoo { };
 
   unstructured = callPackage ../development/python-modules/unstructured { };
